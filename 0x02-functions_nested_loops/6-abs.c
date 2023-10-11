@@ -1,18 +1,19 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * _abs - computes the absolute value of an integer
- * @n: The int to be operated upon
- * author: steven
- * Return: returns an unsinged int value to calling function
+ * _abs - check r
+ * @r: integer input
+ * Description: This function returns the absolute value of a number
+ * Return: Absolute value
  */
-int _abs(int n)
+int _abs(int r)
 {
-	if (n > 0)
-		return (n);
+	if (r >= 0)
+	{
+		return (r);
+	}
 	else
 	{
-		n *= -1;
-		return (n);
+		return (r * -1);
 	}
 }
